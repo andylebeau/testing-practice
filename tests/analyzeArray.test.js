@@ -1,4 +1,4 @@
-const analyzeArray = require("../scripts/analyzeArray");
+import analyzeArray from "../scripts/analyzeArray";
 
 // edge cases
 test("Not a valid array", () => {

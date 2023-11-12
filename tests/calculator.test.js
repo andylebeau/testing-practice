@@ -1,4 +1,4 @@
-const calculator = require("../scripts/calculator");
+import calculator from "../scripts/calculator";
 
 // edge
 test("first num isn't a number", () => {

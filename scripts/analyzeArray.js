@@ -1,4 +1,4 @@
-function analyzeArray(array) {
+export default function analyzeArray(array) {
   // edge cases
   if (!Array.isArray(array)) return "not a valid array";
   if (array.some((value) => isNaN(value))) return "array must be all numbers";
@@ -11,5 +11,3 @@ function analyzeArray(array) {
   };
   return analyzed;
 }
-
-module.exports = analyzeArray;

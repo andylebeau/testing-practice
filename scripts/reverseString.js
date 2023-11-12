@@ -1,5 +1,3 @@
-function reverseString(string) {
+export default function reverseString(string) {
   return string.split("").reverse().join("");
 }
-
-module.exports = reverseString;

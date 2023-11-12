@@ -1,4 +1,4 @@
-function caesarCipher(string, shift) {
+export default function caesarCipher(string, shift) {
   // edge cases
   if (typeof string !== "string") return "not a string";
   if (shift < 1 || !Number.isInteger(shift))
@@ -27,5 +27,3 @@ function caesarCipher(string, shift) {
     })
     .join("");
 }
-
-module.exports = caesarCipher;

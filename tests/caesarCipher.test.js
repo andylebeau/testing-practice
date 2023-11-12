@@ -1,4 +1,4 @@
-const caesarCipher = require("../scripts/caesarCipher");
+import caesarCipher from "../scripts/caesarCipher";
 
 // edge cases
 test("String is not a string", () => {
